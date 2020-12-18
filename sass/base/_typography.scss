@@ -34,3 +34,17 @@ body {
         animation: moveInRight 1s ease-out;
     }
 }
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+    font-weight: 700;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }     
+}
